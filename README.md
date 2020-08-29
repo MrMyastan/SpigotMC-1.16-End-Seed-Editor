@@ -1,4 +1,4 @@
-# SpigotMC-End-Seed-Editor
+# SpigotMC-1.16-End-Seed-Editor
 A Java program that traverses through the NBT structure of a Spigot server end dimension level.dat to edit the dimension seed and biome seed for the end. NBT library from https://github.com/Querz/NBT release 5.5.
 This is meant to edit the seed for just the end dimension so when new chunks are generated they are completely different. So then if your players have gotten to know your current end really well you can prune the chunks and they will regenerate a new. I know this can edit the seed in a 1.1.6.1 SpigotMC server end level.dat but I have not yet tested if they regenerate anew.
-To my knowledge this wont work with any pre 1.16 level.dats because of a change to the format for data in the file, but I've been wrong before. I also haven't tested this with a vanilla level.dat.
+To my knowledge this wont work with any pre 1.16 level.dats because of a change to the format for data in the file, but I've been wrong before. I also haven't tested this with a vanilla level.dat or a Spigot nether or main level.dat.
